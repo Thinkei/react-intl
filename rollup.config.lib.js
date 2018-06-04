@@ -11,8 +11,8 @@ const copyright = `/*
 export default {
   input: p.resolve('src/index.js'),
   output: [
-    {file: 'lib/index.js', format: 'cjs'},
-    {file: 'lib/index.es.js', format: 'es'},
+    { file: 'lib/index.js', format: 'cjs' },
+    { file: 'lib/index.es.js', format: 'es' },
   ],
   banner: copyright,
   external: [
@@ -22,6 +22,8 @@ export default {
     'invariant',
     'react',
     'prop-types',
+    'react-redux',
+    'redux',
     p.resolve('locale-data/index.js'),
   ],
   plugins: [babel()],

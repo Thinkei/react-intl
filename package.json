@@ -121,7 +121,7 @@
     "rollup-plugin-node-resolve": "^3.0.0",
     "rollup-plugin-replace": "^2.0.0",
     "rollup-plugin-uglify": "^2.0.0",
-    "serialize-javascript": "^1.1.1",
+    "serialize-javascript": "^3.1.0",
     "superagent": "^3.0.0",
     "watchify": "^3.7.0"
   },
